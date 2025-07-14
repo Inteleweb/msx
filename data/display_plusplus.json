@@ -1,0 +1,50 @@
+{
+    "type": "pages",
+    "headline": "Display Website ++",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,2,4",
+        "icon": "launch",
+        "color": "msx-glass"
+    },
+    "pages": [
+        {
+            "items": [
+                {
+                    "type": "default",
+                    "layout": "0,0,2,1",
+                    "icon": "info",
+                    "title": "Saved URL",
+                    "titleFooter": "https://charidy.com/{STORAGE:saved_url}++",
+                    "text": "This will open the saved URL with ++ suffix"
+                },
+                {
+                    "type": "control",
+                    "layout": "0,1,2,1",
+                    "icon": "launch",
+                    "title": "Open Website ++",
+                    "titleFooter": "Launch in fullscreen",
+                    "action": "video:https://charidy.com/{STORAGE:saved_url}++"
+                },
+                {
+                    "type": "control",
+                    "layout": "0,2,1,1",
+                    "icon": "edit",
+                    "title": "Edit URL",
+                    "action": "content:data/edit_url.json"
+                },
+                {
+                    "type": "control",
+                    "layout": "1,2,1,1",
+                    "icon": "home",
+                    "title": "Back to Menu",
+                    "action": "back"
+                },
+                {
+                    "type": "space",
+                    "layout": "0,3,2,1"
+                }
+            ]
+        }
+    ]
+}

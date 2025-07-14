@@ -1,0 +1,7 @@
+{
+    "name": "Charidy Media Station",
+    "version": "1.0.0",
+    "parameter": "menu:data/menu.json",
+    "resume": true,
+    "welcome": "Welcome to Charidy Media Station"
+}

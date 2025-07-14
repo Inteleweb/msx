@@ -1,0 +1,30 @@
+{
+    "type": "list",
+    "headline": "Charidy Media Station",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,2,4",
+        "icon": "msx-white-soft:extension",
+        "color": "msx-glass"
+    },
+    "items": [
+        {
+            "title": "Edit URL",
+            "titleFooter": "Enter URL suffix for charidy.com",
+            "icon": "edit",
+            "action": "content:data/edit_url.json"
+        },
+        {
+            "title": "Display Website +",
+            "titleFooter": "Open charidy.com/{url}+",
+            "icon": "launch",
+            "action": "content:data/display_plus.json"
+        },
+        {
+            "title": "Display Website ++", 
+            "titleFooter": "Open charidy.com/{url}++",
+            "icon": "launch",
+            "action": "content:data/display_plusplus.json"
+        }
+    ]
+}
