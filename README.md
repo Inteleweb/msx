@@ -33,8 +33,8 @@
 ## Setup Instructions:
 
 1. **Enable GitHub Pages** in your repository settings
-2. **Test the URL**: `https://yourusername.github.io/msx/start.json`
+2. **Test the URL**: `https://inteleweb.github.io/msx/start.json`
 3. **In MSX app**: Set start parameter to `yourusername.github.io`
-4. **Browser test**: `https://msx.benzac.de?start=menu:https://yourusername.github.io/msx/data/menu.json`
+4. **Browser test**: `https://msx.benzac.de?start=menu:https://inteleweb.github.io/msx/data/menu.json`
 
 The interface is optimized for TV remote control with large buttons and clear navigation paths. Users can easily input URLs, save them, and launch either the + or ++ versions in fullscreen mode.
