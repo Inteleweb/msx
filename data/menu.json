@@ -1,30 +1,23 @@
 {
-    "type": "list",
     "headline": "Charidy Media Station",
-    "template": {
-        "type": "separate",
-        "layout": "0,0,2,4",
-        "icon": "msx-white-soft:extension",
-        "color": "msx-glass"
-    },
-    "items": [
+    "menu": [
         {
-            "title": "Edit URL",
-            "titleFooter": "Enter URL suffix for charidy.com",
             "icon": "edit",
-            "action": "content:https://inteleweb.github.io/msx/data/edit_url.json"
+            "label": "Edit URL",
+            "footer": "Enter URL suffix for charidy.com",
+            "data": "content:https://inteleweb.github.io/msx/data/edit_url.json"
         },
         {
-            "title": "Display Website +",
-            "titleFooter": "Open charidy.com/{url}+",
             "icon": "launch",
-            "action": "content:https://inteleweb.github.io/msx/data/display_plus.json"
+            "label": "Display Website +",
+            "footer": "Open charidy.com/{url}+",
+            "data": "content:https://inteleweb.github.io/msx/data/display_plus.json"
         },
         {
-            "title": "Display Website ++", 
-            "titleFooter": "Open charidy.com/{url}++",
             "icon": "launch",
-            "action": "content:https://inteleweb.github.io/msx/data/display_plusplus.json"
+            "label": "Display Website ++",
+            "footer": "Open charidy.com/{url}++",
+            "data": "content:https://inteleweb.github.io/msx/data/display_plusplus.json"
         }
     ]
 }
