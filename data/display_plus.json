@@ -31,7 +31,7 @@
                     "layout": "0,2,1,1",
                     "icon": "edit",
                     "title": "Edit URL",
-                    "action": "content:data/edit_url.json"
+                    "action": "content:https://inteleweb.github.io/msx/data/edit_url.json"
                 },
                 {
                     "type": "control",

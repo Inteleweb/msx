@@ -12,19 +12,19 @@
             "title": "Edit URL",
             "titleFooter": "Enter URL suffix for charidy.com",
             "icon": "edit",
-            "action": "content:data/edit_url.json"
+            "action": "content:https://inteleweb.github.io/msx/data/edit_url.json"
         },
         {
             "title": "Display Website +",
             "titleFooter": "Open charidy.com/{url}+",
             "icon": "launch",
-            "action": "content:data/display_plus.json"
+            "action": "content:https://inteleweb.github.io/msx/data/display_plus.json"
         },
         {
             "title": "Display Website ++", 
             "titleFooter": "Open charidy.com/{url}++",
             "icon": "launch",
-            "action": "content:data/display_plusplus.json"
+            "action": "content:https://inteleweb.github.io/msx/data/display_plusplus.json"
         }
     ]
 }
